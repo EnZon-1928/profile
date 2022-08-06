@@ -108,7 +108,7 @@ body{
 
 /*! Button Youtube */
 .sm a.fab.fa-youtube{
-  color: #00ff00;
+  color: red;
   box-shadow: 2.5px 2.5px 5px #c3c3c3, -2.5px -2.5px 5px white;
 }
 
