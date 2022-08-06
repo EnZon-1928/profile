@@ -106,16 +106,16 @@ body{
 }
 /*! Button Facebook */
 
-/*! Button Whatsapp */
-.sm a.fab.fa-whatsapp{
+/*! Button Youtube */
+.sm a.fab.fa-youtube{
   color: #00ff00;
   box-shadow: 2.5px 2.5px 5px #c3c3c3, -2.5px -2.5px 5px white;
 }
 
-.sm a.fab.fa-whatsapp:hover{
+.sm a.fab.fa-youtube:hover{
   box-shadow: inset 2.5px 2.5px 5px #00000055, inset -2.5px -2.5px 5px #ffffff33;
 }
-/*! Button Whatsapp */
+/*! Button Youtube */
 
 /*! Button Telegram */
 .sm a.fab.fa-telegram{
@@ -187,4 +187,3 @@ body{
   height: 30px;
   background: #bbb;
 }
-
