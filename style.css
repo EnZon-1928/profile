@@ -23,7 +23,7 @@
 
 body{
   height: 100vh;
-  background: url(bg.jpg) no-repeat center;
+  background: #424242;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -35,8 +35,9 @@ body{
   text-align: center;
   border-radius: 8px;
   overflow: hidden;
-  background: #ECF0F3;
-  box-shadow: inset 0px 0px 5px 5px white;
+  background: linear-gradient(140deg, #474747, #3b3b3b);
+  box-shadow:  5px 5px 10px #353535,
+              -5px -5px 10px #4f4f4f;
 }
 
 .card-header{
@@ -48,9 +49,10 @@ body{
   display: inline-block;
   padding: 2px;
   margin: auto;
-  border: 1px solid #F3F3F3;
   border-radius: 50%;
-  box-shadow: 5px 5px 5px #c3c3c3, -5px -5px 6px #ffffff;
+  background: linear-gradient(145deg, #474747, #3b3b3b);
+  box-shadow:  5px 5px 10px #282828,
+              -5px -5px 10px #5c5c5c;
 }
 
 .pic img{
@@ -61,7 +63,7 @@ body{
 }
 
 .name{
-  color: black;
+  color: white;
   font-size: 28px;
   font-weight: 600;
   margin: 10px 0;
@@ -69,7 +71,7 @@ body{
 
 .desc{
   font-size: 18px;
-  color: black;
+  color: white;
 }
 
 .sm{
@@ -84,7 +86,6 @@ body{
   align-items:center;
   justify-content: center;
   margin: 10px;
-  border: .3px solid #c5c5c5;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -92,50 +93,51 @@ body{
 }
 
 .sm a.fab{
-  background: transparent;
+  padding: 3px;
+  background: linear-gradient(145deg, #474747, #3b3b3b);
+  box-shadow:  5px 5px 10px #353535,
+              -5px -5px 10px #4f4f4f;
+}
+
+.sm a.fab:hover{
+  background: linear-gradient(145deg, #3b3b3b, #474747);
+  box-shadow:  5px 5px 10px #353535,
+              -5px -5px 10px #4f4f4f;
 }
 
 /*! Button Facebook */
 .sm a.fab.fa-facebook{
-  color:#006FFF;
-  box-shadow: 2.5px 2.5px 5px #c3c3c3, -2.5px -2.5px 5px white;
+  color: #4267B2;
 }
-
 .sm a.fab.fa-facebook:hover{
-  box-shadow: inset 2.5px 2.5px 5px #00000055, inset -2.5px -2.5px 5px #ffffff33;
+  color: gray;
 }
 /*! Button Facebook */
 
 /*! Button Youtube */
 .sm a.fab.fa-youtube{
   color: red;
-  box-shadow: 2.5px 2.5px 5px #c3c3c3, -2.5px -2.5px 5px white;
 }
-
 .sm a.fab.fa-youtube:hover{
-  box-shadow: inset 2.5px 2.5px 5px #00000055, inset -2.5px -2.5px 5px #ffffff33;
+  color: gray;
 }
 /*! Button Youtube */
 
 /*! Button Telegram */
 .sm a.fab.fa-telegram{
-  color: #40C1FF;
-  box-shadow: 2.5px 2.5px 5px #c3c3c3, -2.5px -2.5px 5px white;
+  color: #179CDE;
 }
-
 .sm a.fab.fa-telegram:hover{
-  box-shadow: inset 2.5px 2.5px 5px #00000055, inset -2.5px -2.5px 5px #ffffff33;
+  color: gray;
 }
 /*! Button Telegram */
 
 /*! Button Github */
 .sm a.fab.fa-github{
   color: black;
-  box-shadow: 2.5px 2.5px 5px #c3c3c3, -2.5px -2.5px 5px white;
 }
-
 .sm a.fab.fa-github:hover{
-  box-shadow: inset 2.5px 2.5px 5px #00000055, inset -2.5px -2.5px 5px #ffffff33;
+  color: gray;
 }
 /*! Button Github */
 
@@ -144,17 +146,19 @@ body{
   -webkit-tap-highlight-color: transparent;
   display: inline-block;
   padding: 12px 50px;
-  color: black;
+  color: white;
   border-radius: 6px;
   margin-top: 16px;
-  border: .3px solid #c5c5c5;
-  box-shadow: 5px 5px 10px #c3c3c3, -5px -5px 10px white;
+  background: linear-gradient(170deg, #474747, #3b3b3b);
+  box-shadow:  5px 5px 10px #353535,
+              -5px -5px 10px #4f4f4f;
 }
 
 .contact-btn:hover{
-  border: .3px solid #c5c5c5;
-  color: #c5c5c5;
-  box-shadow: inset 5px 5px 10px #cbced1, inset -5px -5px 10px white;
+  color: gray;
+  background: linear-gradient(170deg, #3b3b3b, #474747);
+  box-shadow:  5px 5px 10px #353535,
+              -5px -5px 10px #4f4f4f;
 }
 /*! Button Contact */
 
@@ -173,12 +177,12 @@ body{
   flex: 1;
   text-transform: uppercase;
   font-size: 13px;
-  color: black;
+  color: gray;
 }
 
 .item span{
   display: block;
-  color: black;
+  color: white;
   font-size: 30px;
 }
 
